@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="jivosite">
+	<title>Jivosite</title>
+	<summary>Easy way to have live help chat on your website</summary>
+	<author>Intelliants LLC</author>
+	<contributor>Intelliants LLC</contributor>
+	<version>1.0.0</version>
+	<date>2015-04-16</date>
+	<compatibility>3.3</compatibility>
+
+	<configgroup name="jivosite">Jivosite</configgroup>
+
+	<config group="jivosite" name="jivosite_divider" type="divider" description="Jivosite">Jivosite Settings</config>
+	<config group="jivosite" name="jivosite_code" type="textarea" description="Jivosite code"><![CDATA[]]></config>
+
+	<hooks>
+		<hook name="smartyFrontFinalize" type="smarty" page_type="front">
+			<![CDATA[
+{$core.config.jivosite_code}
+			]]>
+		</hook>
+	</hooks>
+</plugin>
