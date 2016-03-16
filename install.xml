@@ -4,8 +4,8 @@
 	<summary>Easy way to have live help chat on your website</summary>
 	<author>Intelliants LLC</author>
 	<contributor>Intelliants LLC</contributor>
-	<version>1.0.0</version>
-	<date>2015-04-16</date>
+	<version>1.0.1</version>
+	<date>2016-03-16</date>
 	<compatibility>3.3</compatibility>
 
 	<configgroup name="jivosite">Jivosite</configgroup>
