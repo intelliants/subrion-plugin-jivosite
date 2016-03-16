@@ -6,7 +6,7 @@
 	<contributor>Intelliants LLC</contributor>
 	<version>1.0.1</version>
 	<date>2016-03-16</date>
-	<compatibility>3.3</compatibility>
+	<compatibility>4.0</compatibility>
 
 	<configgroup name="jivosite">Jivosite</configgroup>
 
