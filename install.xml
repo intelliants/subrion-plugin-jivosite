@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin name="jivosite">
+<module type="plugin" name="jivosite">
 	<title>Jivosite</title>
 	<summary>Easy way to have live help chat on your website</summary>
 	<author>Intelliants LLC</author>
 	<contributor>Intelliants LLC</contributor>
 	<version>1.0.1</version>
 	<date>2016-03-16</date>
-	<compatibility>4.0</compatibility>
+	<compatibility>4.2</compatibility>
 
 	<configgroup name="jivosite">Jivosite</configgroup>
 
@@ -20,4 +20,4 @@
 			]]>
 		</hook>
 	</hooks>
-</plugin>
+</module>
